@@ -4,7 +4,7 @@ function About() {
   return (
     <section id="about">
       <h2>About Me</h2>
-      <p>Short bio or introduction about yourself.</p>
+      <p>Software Engineer passionate for web tech</p>
     </section>
   );
 }
