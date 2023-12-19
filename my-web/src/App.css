@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-primary {
+  background: #0F172A; 
+}
+
+.bg-secondary {
+  background: #1E293B;
+}
+
+.bg-accent{
+  background: #7477FF;
+}
+
+.text-accent{
+  color: #7477FF;
+}
+
+
+
+nav li a {
+  @apply p-4 py-5 text-lg;
+}
+
+nav li a:hover {
+  color: #7477FF;
+}
+
+.mobile-nav {
+  @apply block md:hidden fixed w-full top-10 py-2 h-full bg-gray-900 duration-500;
+}
