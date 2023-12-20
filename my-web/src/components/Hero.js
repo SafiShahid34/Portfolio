@@ -1,28 +1,68 @@
-import React from 'react'
-import Me from '../assets/Me.png'
+import React from "react";
+import Me from "../assets/Me.JPG";
+
+import {
+  AiOutlineTwitter,
+  AiOutlineYoutube,
+  AiOutlineFacebook,
+} from "react-icons/ai";
 
 const Hero = () => {
   return (
-    <section className='bg-primary text-white'>
-        <div className='container mx-auto grid md:grid-col-2 item-center justify-between'>
-            <div className='hero-info'>
-                <h1 className='text-2 text-6x1'>
-                    Hi, <br/> I am <span className='text-accent'>S</span>afi <br />
-                    Webdeveloper
-                </h1>
+    <section className="bg-primary px-5 text-white py-32">
+      <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
+        <div className="hero-info pb-5 md:pb-0 ml-12">
+          <h1 className="text-4xl lg:text-6xl">
+            Hi, <br />I am <span className="text-accent">S</span>afi <br />
+            Web Developer
+          </h1>
 
-                <p>
-                    Proficient in React.js and Tailwind CSS as per this website
-                </p>
-                <button>See Projects</button>
-            </div>
-            <div className='hero-img'>
-                <img src={Me} alt="profile" className='w-[40%] ml-auto'/>
-            </div>
+          <p className="py-5">
+            I am proficient in JavaScript, React.js and Tailwind CSS
+          </p>
+
+          <div className="flex py-5 ">
+            <a
+              href="https://twitter.com/CoderAmrin"
+              className="pr-4 inline-block text-accent hover:text-white"
+            >
+              {" "}
+              <AiOutlineTwitter size={40} />{" "}
+            </a>
+            <a
+              href="https://www.youtube.com/@coderamrin"
+              className="pr-4 inline-block text-accent hover:text-white"
+            >
+              {" "}
+              <AiOutlineYoutube size={40} />{" "}
+            </a>
+            <a
+              href="https://www.facebook.com/CoderAmrin/"
+              className="pr-4 inline-block text-accent hover:text-white"
+            >
+              {" "}
+              <AiOutlineFacebook size={40} />{" "}
+            </a>
+          </div>
+
+          <a
+            href="/#projects"
+            className=" btn bg-accent  border-2 border-[#7477FF] text-white px-6 py-3 hover:bg-transparent"
+          >
+            See Projects
+          </a>
         </div>
-        
-    </section>
-  )
-}
 
-export default Hero
+        <div className="hero-img ">
+          <img
+            src={Me}
+            alt="coding illustration"
+            className="w-[60%] ml-auto mr-12"
+          />
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;
