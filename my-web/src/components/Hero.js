@@ -2,9 +2,8 @@ import React from "react";
 import Me from "../assets/Me.JPG";
 
 import {
-  AiOutlineTwitter,
-  AiOutlineYoutube,
-  AiOutlineFacebook,
+  AiOutlineLinkedin,
+  AiOutlineGithub,
 } from "react-icons/ai";
 
 const Hero = () => {
@@ -14,34 +13,27 @@ const Hero = () => {
         <div className="hero-info pb-5 md:pb-0 ml-12">
           <h1 className="text-4xl lg:text-6xl">
             Hi, <br />I am <span className="text-accent">S</span>afi <br />
-            Web Developer
+            Software Developer
           </h1>
 
           <p className="py-5">
-            I am proficient in JavaScript, React.js and Tailwind CSS
+            Proficient in React.js, Node.js, Python, Java and more 
           </p>
 
           <div className="flex py-5 ">
             <a
-              href="https://twitter.com/CoderAmrin"
+              href="https://www.linkedin.com/in/safi-shahid/"
               className="pr-4 inline-block text-accent hover:text-white"
             >
               {" "}
-              <AiOutlineTwitter size={40} />{" "}
+              <AiOutlineLinkedin size={40} />{" "}
             </a>
             <a
-              href="https://www.youtube.com/@coderamrin"
+              href="https://github.com/SafiShahid34"
               className="pr-4 inline-block text-accent hover:text-white"
             >
               {" "}
-              <AiOutlineYoutube size={40} />{" "}
-            </a>
-            <a
-              href="https://www.facebook.com/CoderAmrin/"
-              className="pr-4 inline-block text-accent hover:text-white"
-            >
-              {" "}
-              <AiOutlineFacebook size={40} />{" "}
+              <AiOutlineGithub size={40} />{" "}
             </a>
           </div>
 

@@ -11,9 +11,9 @@ const About = () => {
           </h2>
 
           <p className="pb-5 " >
-            Hi, My Name Is Safi Shahid I am a Full Stack Developer in New York. 
-            During my pursuits in computer science, i have developed a strong admiration for web technologies
-            Most notably in React and Node.js.
+            Hi, My Name Is Safi Shahid I am a Full Stack Developer in New York.
+            During my pursuits in computer science, i have developed a strong admiration for many languages and frameworks
+            most notably in React and Node.js.
           </p>
           <div className="ml-8 mt-4">
           <p className="pb-5">

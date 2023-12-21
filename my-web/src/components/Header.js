@@ -13,20 +13,15 @@ const Header = () => {
         <nav className='hidden md:block'>
             <ul className='flex'>
                 <li>
-                    < a href="/" >About</a>
+                    < a href="/#about" >About</a>
                 </li>
                 <li>
-                    < a href="/" >Projects</a>
+                    < a href="/#projects" >Projects</a>
                 </li>
                 <li>
-                    < a href="/" >Blog</a>
+                    < a href="/#contact" >Contact</a>
                     </li>
-                <li>
-                    < a href="/" >Contact</a>
-                    </li>
-                <li>
-                    < a href="/" >Resume</a>
-                    </li>
+
             </ul>
         </nav>
 
@@ -43,15 +38,11 @@ const Header = () => {
                 <li>
                     < a href="/" >Projects</a>
                 </li>
-                <li>
-                    < a href="/" >Blog</a>
-                    </li>
+
                 <li>
                     < a href="/" >Contact</a>
                     </li>
-                <li>
-                    < a href="/" >Resume</a>
-                    </li>
+
             </ul>
         </nav>
 
